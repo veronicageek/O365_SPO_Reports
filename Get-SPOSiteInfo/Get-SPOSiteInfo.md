@@ -1,6 +1,6 @@
 ## What's needed to run the function
 
-The script uses [SharePoint PowerShell PnP] (https://github.com/SharePoint/PnP-PowerShell) *(Patterns & Practices)*.
+The script uses **SharePoint PowerShell PnP** *(Patterns & Practices)* and is available on GitHub: https://github.com/SharePoint/PnP-PowerShell
 
 Therefore, this is a requirement for the script to run.
 

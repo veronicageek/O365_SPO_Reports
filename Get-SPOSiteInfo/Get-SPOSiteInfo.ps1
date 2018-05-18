@@ -63,7 +63,7 @@ function Get-SPOSiteInfo {
     
     #Formatting the "Storage % Used" with RED bground if >= 80%
     $SPODataWS = $myWorkbook.Workbook.Worksheets["SPOData"]
-    Set-Format -WorkSheet $SPODataWS -Range "H2:H500000" -NumberFormat "80.00%" -AutoFit
+    Set-Format -WorkSheet $SPODataWS -Range "H2:H500000" -NumberFormat "0.00%" -AutoFit
     Add-ConditionalFormatting -WorkSheet $SPODataWS -Range "H2:H500000" -RuleType GreaterThanOrEqual -ConditionValue '80.00%' -ForeGroundColor White -BackgroundColor "Red"
     Set-CellStyle -WorkSheet $SPODataWS -LastColumn 1 -Pattern Solid -Color LightGray
 
